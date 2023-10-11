@@ -5,7 +5,14 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Crypto Pay',
-  description: 'Crypto payments for telegram bots'
+  description: 'Crypto payments for telegram bots',
+  twitter: {
+    card: 'summary_large_image',
+    images: ['https://i.ibb.co/N3Y1PvJ/cover.png']
+  },
+  openGraph: {
+    images: ['https://i.ibb.co/N3Y1PvJ/cover.png']
+  }
 };
 
 const inter = Inter({
