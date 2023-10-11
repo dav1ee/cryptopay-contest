@@ -1,0 +1,56 @@
+.buttonGroup {
+  position: relative;
+  margin-bottom: 16px;
+  padding-top: 37px;
+  padding-bottom: 53px;
+}
+
+.buttonGroup button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 18px 39px;
+  background: var(--click-to-start-btn);
+  border: 0;
+  border-radius: 17px;
+  color: var(--main-text);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3.9s;
+}
+
+.buttonGroup button img {
+  margin-right: 5px;
+}
+
+.buttonGroup svg {
+  position: absolute;
+  right: 8%;
+  bottom: 8%;
+
+  animation-duration: 0.5s, 0.5s;
+  animation-timing-function: ease-in-out, ease-in-out;
+  animation-fill-mode: forwards, forwards;
+  animation-delay: 3.4s, 4.4s;
+}
+
+@media (max-width: 1110px) {
+  .buttonGroup {
+    margin-bottom: 24px;
+    padding-top: 29px;
+    padding-bottom: 28px;
+  }
+
+  .heading p br {
+    display: none;
+  }
+
+  .buttonGroup svg {
+    right: -7%;
+    bottom: -14%;
+  }
+}

@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.even {
+  flex-direction: row-reverse;
+}
+
+.odd {
+  flex-direction: row;
+}
+
+@media (max-width: 1150px) {
+  .item {
+    width: 335px;
+    flex-direction: column;
+    margin: 24px auto 0;
+  }
+}

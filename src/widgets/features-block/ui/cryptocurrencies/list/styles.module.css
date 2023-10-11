@@ -1,0 +1,108 @@
+.currenciesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.currencyItem {
+  transform: scale(1);
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.currencyItem img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 8px;
+}
+
+.currencyItem p {
+  color: var(--tag-text);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.currencyItem:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.currencyItem:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.currencyItem:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.currencyItem:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.currencyItem:nth-child(5) {
+  animation-delay: 1.5s;
+}
+
+.currencyItem:nth-child(6) {
+  animation-delay: 1.8s;
+}
+
+.currencyItem:nth-child(7) {
+  animation-delay: 2.1s;
+}
+
+.currencyItem:nth-child(8) {
+  animation-delay: 2.4s;
+}
+
+@media (max-width: 1110px) {
+  .currenciesList {
+    order: 1;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .currencyItem:nth-child(1) {
+    order: 1;
+    animation-delay: 0.3s;
+  }
+  .currencyItem:nth-child(2) {
+    order: 2;
+    animation-delay: 0.6s;
+  }
+  .currencyItem:nth-child(3) {
+    order: 4;
+    animation-delay: 1.2s;
+  }
+  .currencyItem:nth-child(4) {
+    order: 3;
+    animation-delay: 0.9s;
+  }
+  .currencyItem:nth-child(5) {
+    order: 6;
+    animation-delay: 1.8s;
+  }
+  .currencyItem:nth-child(6) {
+    order: 8;
+    animation-delay: 2.4s;
+  }
+  .currencyItem:nth-child(7) {
+    order: 7;
+    animation-delay: 2.1s;
+  }
+  .currencyItem:nth-child(8) {
+    order: 5;
+    margin-left: 11px;
+    animation-delay: 1.5s;
+  }
+
+  .currencyItem img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 0;
+  }
+
+  .currencyItem p {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.communityBlock {
+  background-color: var(--main-bg);
+  border-radius: 0 0 40px 40px;
+}
+
+.layout {
+  padding: 24px 0 80px;
+  text-align: center;
+}

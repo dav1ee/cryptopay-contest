@@ -1,0 +1,20 @@
+.glow {
+  position: absolute;
+  right: 0;
+  top: 35%;
+  transform: rotate(140deg);
+  width: 660px;
+  height: 340px;
+  mix-blend-mode: overlay;
+  filter: blur(80px);
+  background-color: rgba(255, 255, 255, 0.63);
+}
+
+@media (max-width: 650px) {
+  .glow {
+    top: -15%;
+    right: 0;
+    left: 0;
+    filter: blur(68px);
+  }
+}

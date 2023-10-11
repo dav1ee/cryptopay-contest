@@ -1,0 +1,4 @@
+.cryptocurrencies {
+  display: flex;
+  flex-direction: column;
+}

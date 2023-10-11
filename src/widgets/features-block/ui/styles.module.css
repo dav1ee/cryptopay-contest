@@ -1,0 +1,58 @@
+.featuresBlock {
+  padding: 24px 0;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 488px;
+}
+
+.right {
+  width: 692px;
+}
+
+.verification {
+  width: 692px;
+}
+
+.anonymous {
+  width: 488px;
+}
+
+@media (max-width: 1110px) {
+  .inner {
+    gap: 16px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 16px;
+    width: 335px;
+    margin: 0 auto;
+  }
+
+  .center {
+    margin: 0 auto;
+  }
+
+  .left {
+    width: 335px;
+  }
+
+  .right {
+    width: 335px;
+  }
+}

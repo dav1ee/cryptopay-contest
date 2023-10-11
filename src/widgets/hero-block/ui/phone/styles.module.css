@@ -1,0 +1,26 @@
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 488px;
+  height: 700px;
+}
+
+.phone img {
+  width: 369px;
+  height: 689px;
+}
+
+@media (max-width: 950px) {
+  .phone {
+    width: 100%;
+    height: auto;
+    padding: 32px 0;
+  }
+
+  .phone img {
+    width: 280px;
+    height: 612px;
+  }
+}

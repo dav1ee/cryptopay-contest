@@ -1,0 +1,15 @@
+.gradientBlock {
+  height: 488px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 650px) {
+  .gradientBlock {
+    width: 335px !important;
+    height: 277px;
+  }
+}

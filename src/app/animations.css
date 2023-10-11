@@ -1,0 +1,280 @@
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes cursorMoveIn {
+  0% {
+    right: 8%;
+    bottom: 8%;
+  }
+
+  100% {
+    right: 16%;
+    bottom: 20%;
+  }
+}
+
+@keyframes cursorMoveInSm {
+  0% {
+    right: -7%;
+    bottom: -14%;
+  }
+
+  100% {
+    right: 3%;
+    bottom: 5%;
+  }
+}
+
+@keyframes buttonClick {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    background: var(--click-to-start-btn-active);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes cursorMoveOut {
+  0% {
+    right: 16%;
+    bottom: 20%;
+  }
+
+  100% {
+    right: 8%;
+    bottom: 8%;
+  }
+}
+
+@keyframes cursorMoveOutSm {
+  0% {
+    right: 3%;
+    bottom: 5%;
+  }
+
+  100% {
+    right: -7%;
+    bottom: -14%;
+  }
+}
+
+@keyframes changeImgOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes swapPayments {
+  0% {
+    opacity: 1;
+    top: 50px;
+    z-index: 999;
+  }
+
+  70% {
+    top: 20px;
+    z-index: 0;
+  }
+
+  100% {
+    top: 30px;
+    transform: scale(0.9);
+    opacity: 0.25;
+    z-index: 0;
+  }
+}
+
+@keyframes swapTon {
+  0% {
+    left: 100px;
+    z-index: 3;
+  }
+
+  33.33333% {
+    left: 60px;
+    z-index: 1;
+  }
+
+  66.66666% {
+    left: 80px;
+    z-index: 2;
+  }
+
+  100% {
+    left: 100px;
+    z-index: 3;
+  }
+}
+
+@keyframes swapBtc {
+  0% {
+    left: 80px;
+    z-index: 2;
+  }
+
+  33.33333% {
+    left: 100px;
+    z-index: 3;
+  }
+
+  66.66666% {
+    left: 60px;
+    z-index: 1;
+  }
+
+  100% {
+    left: 80px;
+    z-index: 2;
+  }
+}
+
+@keyframes swapUsdt {
+  0% {
+    left: 60px;
+    z-index: 1;
+  }
+
+  33.33333% {
+    left: 80px;
+    z-index: 2;
+  }
+
+  66.66666% {
+    left: 100px;
+    z-index: 3;
+  }
+
+  100% {
+    left: 60px;
+    z-index: 1;
+  }
+}
+
+@keyframes swapTonSm {
+  0% {
+    left: 70px;
+    z-index: 3;
+  }
+
+  33.33333% {
+    left: 40px;
+    z-index: 1;
+  }
+
+  66.66666% {
+    left: 55px;
+    z-index: 2;
+  }
+
+  100% {
+    left: 70px;
+    z-index: 3;
+  }
+}
+
+@keyframes swapBtcSm {
+  0% {
+    left: 55px;
+    z-index: 2;
+  }
+
+  33.33333% {
+    left: 70px;
+    z-index: 3;
+  }
+
+  66.66666% {
+    left: 40px;
+    z-index: 1;
+  }
+
+  100% {
+    left: 55px;
+    z-index: 2;
+  }
+}
+
+@keyframes swapUsdtSm {
+  0% {
+    left: 40px;
+    z-index: 1;
+  }
+
+  33.33333% {
+    left: 55px;
+    z-index: 2;
+  }
+
+  66.66666% {
+    left: 70px;
+    z-index: 3;
+  }
+
+  100% {
+    left: 40px;
+    z-index: 1;
+  }
+}
+
+@keyframes swapVerification {
+  0% {
+    top: 42%;
+    opacity: 1;
+    z-index: 999;
+  }
+
+  70% {
+    top: 17%;
+    z-index: 0;
+  }
+
+  100% {
+    top: 17%;
+    left: 17%;
+    transform: scale(0.9);
+    opacity: 0.3;
+    z-index: 0;
+  }
+}
+
+@keyframes swapVerificationSm {
+  0% {
+    top: 42%;
+    opacity: 1;
+    z-index: 999;
+  }
+
+  70% {
+    top: 17%;
+    z-index: 0;
+  }
+
+  100% {
+    top: 18%;
+    left: 12%;
+    transform: scale(0.9);
+    opacity: 0.3;
+    z-index: 0;
+  }
+}

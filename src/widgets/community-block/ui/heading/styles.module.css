@@ -1,0 +1,38 @@
+.headingBlock {
+  margin-bottom: 40px;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 62px;
+  letter-spacing: -1.7px;
+}
+
+.subtitle {
+  color: var(--secondary-text);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (max-width: 461px) {
+  .headingBlock {
+    margin-bottom: 24px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: -1px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .subtitle br {
+    display: none;
+  }
+}

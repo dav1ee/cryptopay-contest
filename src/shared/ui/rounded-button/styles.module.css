@@ -1,0 +1,16 @@
+.button {
+  padding: 18px 42px;
+  border: 0;
+  border-radius: 900px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+@media (max-width: 461px) {
+  .button {
+    padding: 12px 32px;
+    font-size: 18px;
+  }
+}

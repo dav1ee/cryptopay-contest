@@ -1,0 +1,40 @@
+.sliderControls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 19px;
+}
+
+.sliderControls p {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.lineBtn {
+  width: 4px;
+  height: 109px;
+  border: 0;
+  border-radius: 90px;
+  background-color: var(--white-24);
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--blue);
+}
+
+@media (max-width: 1175px) {
+  .sliderControls {
+    width: 100%;
+    height: 17px;
+    flex-direction: row;
+  }
+
+  .lineBtn {
+    width: 82px;
+    height: 4px;
+  }
+}

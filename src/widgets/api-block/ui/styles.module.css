@@ -1,0 +1,16 @@
+.apiBlock {
+  position: relative;
+  height: 550px;
+  margin: 120px 0;
+  background: linear-gradient(233deg, #9fccfa -20.48%, #0974f1 97.38%);
+  border-radius: 40px;
+}
+
+@media (max-width: 650px) {
+  .apiBlock {
+    height: 514px;
+    margin: 80px 0;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+}

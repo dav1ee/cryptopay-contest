@@ -1,0 +1,16 @@
+.header {
+  padding: 40px 0;
+}
+
+.inner {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen {
+  .header {
+    padding: 44px 0 20px;
+  }
+}

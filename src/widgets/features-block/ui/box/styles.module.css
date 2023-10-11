@@ -1,0 +1,10 @@
+.box {
+  background-color: var(--secondary-bg);
+  border-radius: 40px;
+}
+
+@media (max-width: 1110px) {
+  .box {
+    max-width: 335px;
+  }
+}

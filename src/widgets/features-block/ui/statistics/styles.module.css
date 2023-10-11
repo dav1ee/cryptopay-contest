@@ -1,0 +1,47 @@
+.heading {
+  margin-top: 24px;
+}
+
+.bg {
+  width: 580px;
+  height: 526px;
+  position: relative;
+}
+
+.bg img {
+  position: absolute;
+  border-radius: 40px;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.bg img:nth-child(1) {
+  animation: none;
+}
+
+.bg img:nth-child(2) {
+  opacity: 0;
+  animation-delay: 7.25s;
+}
+
+.bg img:nth-child(3) {
+  opacity: 0;
+  animation-delay: 8.5s;
+}
+
+.bg img:nth-child(4) {
+  opacity: 0;
+  animation-delay: 9.75s;
+}
+
+@media (max-width: 1110px) {
+  .bg {
+    width: 271px;
+    height: 281px;
+  }
+
+  .bg img {
+    border-radius: 17px;
+  }
+}

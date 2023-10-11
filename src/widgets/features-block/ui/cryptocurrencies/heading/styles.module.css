@@ -1,0 +1,11 @@
+.heading {
+  margin-bottom: 42px;
+}
+
+@media (max-width: 1110px) {
+  .heading {
+    order: 2;
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+}

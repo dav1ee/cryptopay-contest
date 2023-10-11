@@ -1,0 +1,16 @@
+.themeBtn {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 461px) {
+  .themeBtn,
+  .themeBtn img {
+    width: 24px;
+    height: 24px;
+  }
+}

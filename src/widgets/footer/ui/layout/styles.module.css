@@ -1,0 +1,33 @@
+.footer {
+  padding: 90px 0 40px;
+  background-color: var(--dark-bg);
+  color: var(--white);
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  background-color: transparent;
+}
+
+.inner button {
+  border: 1px solid var(--white-60) !important;
+  background-color: transparent !important;
+  color: var(--white) !important;
+}
+
+.copyright {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+@media (max-width: 461px) {
+  .copyright {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
